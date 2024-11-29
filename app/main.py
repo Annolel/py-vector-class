@@ -3,6 +3,7 @@ from typing import Any
 
 
 class Vector:
+    # flake8: noqa: VNE001
     def __init__(self, x: float, y: float) -> None:
         self.x = round(x, 2)
         self.y = round(y, 2)
